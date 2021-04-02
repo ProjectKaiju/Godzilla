@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="711px" preserveAspectRatio="none" style="width:855px;height:711px;" version="1.1" viewBox="0 0 855 711" width="855px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hicsz2trfz76" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="178" x="332" y="16.708">Mothra Uses Cases</text><!--MD5=[8699c0c8e953ee53654a072cc875bfb4]
+cluster Browser--><rect fill="#FFFFFF" filter="url(#f1hicsz2trfz76)" height="672" style="stroke:#000000;stroke-width:1.5;" width="836" x="7" y="27.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="392" y="42.9482">Browser</text><!--MD5=[04563cfb8fc45cb1441f9001368ca62a]
+cluster HTML--><rect fill="#FFFFFF" filter="url(#f1hicsz2trfz76)" height="89" style="stroke:#000000;stroke-width:1.5;" width="358" x="195" y="70.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="351.5" y="85.9482">HTML</text><!--MD5=[aed5e7c696f5628545a97d7e5ae05de4]
+cluster WebSocket--><rect fill="#FFFFFF" filter="url(#f1hicsz2trfz76)" height="99" style="stroke:#000000;stroke-width:1.5;" width="788" x="31" y="576.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="380.5" y="591.9482">WebSocket</text><ellipse cx="393.9293" cy="239.739" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="71.9293" ry="16.7859" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="341.9293" y="243.4866">Trigger Event</text><ellipse cx="393.9088" cy="357.932" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="103.4088" ry="23.9788" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="58" x="358.0851" y="351.1306">«Event»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="315.0851" y="367.4275">Notifies Subscribers</text><ellipse cx="243.2487" cy="478.4768" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="27.7487" ry="14.5236" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="231.7487" y="481.3234">IPC</text><!--MD5=[14533ecc255b3b24a7ab7af6dc19c04d]
+entity Kong--><ellipse cx="105" cy="465.25" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="4.5" ry="4.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M92.5,471.75 L92.5,476.75 L102,476.75 L102,479.0074 L92.5,488.5074 L96.7426,492.75 L105,484.4926 L113.2574,492.75 L117.5,488.5074 L108,479.0074 L108,476.75 L117.5,476.75 L117.5,471.75 L92.5,471.75 " fill="#FEFECE" filter="url(#f1hicsz2trfz76)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="86.5" y="510.2451">Kong</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="63" x="73.5" y="455.9482">«WASM»</text><!--MD5=[b126432b5e00bc6f4a80945f06c7117d]
+entity Mothra--><ellipse cx="394" cy="465.25" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="4.5" ry="4.5" style="stroke:#A80036;stroke-width:1.5;"/><path d="M381.5,471.75 L381.5,476.75 L391,476.75 L391,479.0074 L381.5,488.5074 L385.7426,492.75 L394,484.4926 L402.2574,492.75 L406.5,488.5074 L397,479.0074 L397,476.75 L406.5,476.75 L406.5,471.75 L381.5,471.75 " fill="#FEFECE" filter="url(#f1hicsz2trfz76)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="368.5" y="510.2451">Mothra</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="89" x="349.5" y="455.9482">«JavaScript»</text><ellipse cx="274.2349" cy="124.9001" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="62.7349" ry="14.947" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="235.2349" y="128.6477">Load DOM</text><ellipse cx="453.788" cy="124.8107" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="82.288" ry="18.8576" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="390.9505" y="127.9369">Manipulates DOM</text><ellipse cx="121.9948" cy="635.8521" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="74.9948" ry="17.399" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="65.9948" y="639.5996">Read Resource</text><ellipse cx="306.2198" cy="636.1971" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="74.2198" ry="17.244" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="251.2198" y="639.9446">Save Resource</text><ellipse cx="499.9263" cy="635.7384" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="84.4263" ry="19.2853" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="435.305" y="638.627">Remove Resource</text><ellipse cx="711.1544" cy="636.0449" fill="#FEFECE" filter="url(#f1hicsz2trfz76)" rx="91.6544" ry="24.0918" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="58" x="675.7132" y="629.5087">«Event»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="642.2132" y="645.8056">Send Notification</text><!--MD5=[b06d5c60cca5596a02023fcd25fc65bf]
+reverse link TriggerEvent to Notify--><path d="M394,277.2811 C394,295.7331 394,317.6031 394,333.7571 " fill="none" id="TriggerEvent-backto-Notify" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="387,277.0821,394,257.0821,401,277.0821,387,277.0821" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="395" y="300.02">Inherit</text><!--MD5=[c2bc5cc8916451ea42f21ee5c78bdb46]
+reverse link ManipDom to TriggerEvent--><path d="M434.948,161.8341 C424.04,182.3771 410.894,207.1361 402.493,222.9591 " fill="none" id="ManipDom-backto-TriggerEvent" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="428.931,158.2401,444.493,143.8581,441.296,164.8051,428.931,158.2401" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="426" y="189.02">Inherit</text><!--MD5=[e710920266c2bed90c6e50ddd9817ec3]
+reverse link LoadDom to TriggerEvent--><path d="M303.519,153.7501 C326.712,175.5901 358.179,205.2211 377.236,223.1671 " fill="none" id="LoadDom-backto-TriggerEvent" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="298.476,158.6161,288.714,139.8091,308.074,148.4241,298.476,158.6161" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="345" y="189.02">Inherit</text><!--MD5=[1e082b2a7bc28aa53c37d162d4628316]
+link Notify to Mothra--><path d="M394,382.0821 C394,397.8431 394,419.1191 394,437.5761 " fill="none" id="Notify-to-Mothra" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="394,442.7001,398,433.7001,394,437.7001,390,433.7001,394,442.7001" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[39543c2e45b3e613923902c0bcec49bb]
+reverse link ManipDom to Mothra--><path d="M468.843,148.1481 C497.452,193.9291 554.092,301.2991 515,381.9531 C499.184,414.5841 466.212,439.4271 438.676,455.5841 " fill="none" id="ManipDom-backto-Mothra" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="466.166,143.9131,467.5927,153.6581,468.8371,148.1398,474.3554,149.3843,466.166,143.9131" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="528" y="300.02">Invoke</text><!--MD5=[0a72d8cd73cac345273798b02d5ea426]
+reverse link LoadDom to Mothra--><path d="M268.541,144.9841 C256.946,189.2421 233.975,301.4371 273,381.9531 C288.816,414.5841 321.788,439.4271 349.324,455.5841 " fill="none" id="LoadDom-backto-Mothra" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="269.893,139.9301,263.7019,147.5898,268.6002,144.7601,271.4298,149.6583,269.893,139.9301" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="254" y="300.02">Invoke</text><!--MD5=[2e05c9df71aa8064ffd3479fa3a06e59]
+link Mothra to ReadRes--><path d="M349.299,499.2341 C312.219,516.2151 258.552,542.1351 214,568.9531 C190.045,583.3731 164.307,602.1451 146.163,615.9805 " fill="none" id="Mothra-to-ReadRes" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="142.181,619.0309,151.7578,616.732,146.1498,615.9898,146.8921,610.3819,142.181,619.0309" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="259" y="557.02">Invoke</text><!--MD5=[2a9208e5388bb13a4e2443bbe2e44300]
+link Mothra to SaveRes--><path d="M374.47,513.9631 C357.023,544.7931 332.05,588.9211 317.582,614.4881 " fill="none" id="Mothra-to-SaveRes" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="315.007,619.0381,322.9197,613.1739,317.4687,614.6861,315.9566,609.2351,315.007,619.0381" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="356" y="557.02">Invoke</text><!--MD5=[ef095169fa6d8e8f5e034ce8655fb2ee]
+link Mothra to RemoveRes--><path d="M417.525,513.9631 C437.936,543.9061 466.898,586.3931 484.514,612.2351 " fill="none" id="Mothra-to-RemoveRes" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="487.454,616.5478,485.6907,606.8581,484.6381,612.4161,479.0801,611.3635,487.454,616.5478" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="448" y="557.02">Invoke</text><!--MD5=[7836a74315b01d396d87b8ed5b89f6e9]
+reverse link Mothra to Notification--><path d="M443.486,498.5011 C486.194,515.4671 549.16,541.7521 602,568.9531 C628.357,582.5211 656.986,599.9681 678.287,613.5161 " fill="none" id="Mothra-backto-Notification" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="438.641,496.5811,445.5353,503.6145,443.2896,498.4226,448.4816,496.1768,438.641,496.5811" style="stroke:#A80036;stroke-width:2.0;"/><!--MD5=[6fc908dc2e2ef5fb91fae92dafb26d4d]
+reverse link Kong to IPC--><path d="M141.781,478.4531 C164.845,478.4531 194.104,478.4531 215.225,478.4531 " fill="none" id="Kong-backto-IPC" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="136.66,478.4531,145.66,482.4531,141.66,478.4531,145.66,474.4531,136.66,478.4531" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="155" y="471.52">Invoke</text><!--MD5=[cf0a159ef225dc2434f4a2c5f4859b87]
+reverse link IPC to Mothra--><path d="M275.732,478.4531 C297.253,478.4531 325.692,478.4531 349.289,478.4531 " fill="none" id="IPC-backto-Mothra" style="stroke:#A80036;stroke-width:2.0;"/><polygon fill="#A80036" points="270.696,478.4531,279.696,482.4531,275.696,478.4531,279.696,474.4531,270.696,478.4531" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="289" y="471.52">Invoke</text><!--MD5=[c9b3865a7033b1a7183be13b5a8bd469]
+@startuml
+title Mothra Uses Cases
+top to bottom direction
+skinparam actorStyle hollow
+
+rectangle Browser {
+    rectangle HTML {
+        usecase (Load DOM) as LoadDom
+        usecase (Manipulates DOM) as ManipDom
+    }
+
+    rectangle WebSocket {
+        usecase (Read Resource) as ReadRes
+        usecase (Save Resource) as SaveRes
+        usecase (Remove Resource) as RemoveRes
+        usecase (Send Notification) << Event >> as Notification
+    }
+
+    usecase (Trigger Event) as TriggerEvent
+    usecase (Notifies Subscribers) << Event >> as Notify
+    usecase (IPC)
+
+    TriggerEvent <|.d. Notify : Inherit
+    TriggerEvent .u.|> ManipDom : Inherit
+    TriggerEvent .u.|> LoadDom : Inherit
+
+    actor Kong << WASM >> as Kong
+    actor Mothra << JavaScript >> as Mothra
+
+    Notify =d=> Mothra
+
+    Mothra =u=> ManipDom : Invoke
+    Mothra =u=> LoadDom : Invoke
+
+    Mothra =d=> ReadRes : Invoke
+    Mothra =d=> SaveRes : Invoke
+    Mothra =d=> RemoveRes : Invoke
+
+    Mothra <=d= Notification
+
+    Kong <=r= IPC : Invoke
+    IPC <=r= Mothra : Invoke
+}
+@enduml
+
+PlantUML version 1.2021.4beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
