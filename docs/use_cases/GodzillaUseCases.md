@@ -3,7 +3,7 @@ Use Cases
 
 ## Overall Use Cases
 
-![Use Case Diagrams](../GodzillaUseCases.svg)
+![Use Case Diagrams](../WebUser.svg)
 
 ### UC List
 
@@ -13,6 +13,8 @@ Use Cases
 * [DELETE Resource (HttpDelete)](Http.md#httpdelete)
 
 ## Godzilla Use Cases
+
+![Use Case Diagrams](../Godzilla.svg)
 
 ### UC List
 

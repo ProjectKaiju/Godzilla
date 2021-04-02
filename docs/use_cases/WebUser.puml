@@ -1,0 +1,29 @@
+@startuml
+title Web User Use Cases
+left to right direction
+actor :Web User: << Human / Bot >> as WebUser
+
+rectangle Browser{
+    rectangle HTTP {
+        usecase (GET Resource) as HttpGet
+        usecase (POST Resource) as HttpPost
+        usecase (PUT Resource) as HttpPut
+        usecase (DELETE Resource) as HttpDelete
+    }
+
+    rectangle HTML {
+        usecase (Manipulates DOM) as ManipDom
+    }
+}
+
+WebUser =d=> ManipDom : Invoke
+
+WebUser =r=> HttpGet : Invoke
+WebUser =r=> HttpPost : Invoke
+WebUser =r=> HttpPut : Invoke
+WebUser =r=> HttpDelete : Invoke
+@enduml
+
+
+
+

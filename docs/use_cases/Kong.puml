@@ -1,0 +1,44 @@
+@startuml
+title Kong Use Cases
+top to bottom direction
+skinparam actorStyle hollow
+
+rectangle Browser {
+    rectangle HTML {
+        usecase (Load DOM) as LoadDom
+        usecase (Manipulates DOM) as ManipDom
+    }
+
+    rectangle WebSocket {
+        usecase (Read Resource) as ReadRes
+        usecase (Save Resource) as SaveRes
+        usecase (Remove Resource) as RemoveRes
+        usecase (Send Notification) << Event >> as Notification
+    }
+
+    usecase (Trigger Event) as TriggerEvent
+    usecase (Notifies Subscribers) << Event >> as Notify
+    usecase (IPC)
+
+    TriggerEvent <|.d. Notify : Inherit
+    TriggerEvent .u.|> ManipDom : Inherit
+    TriggerEvent .u.|> LoadDom : Inherit
+
+    actor Kong << WASM >> as Kong
+    actor Mothra << JavaScript >> as Mothra
+
+    Notify ==> Kong
+
+    Kong =d=> ReadRes : Invoke
+    Kong =d=> SaveRes : Invoke
+    Kong =d=> RemoveRes : Invoke
+
+    Kong <=d= Notification
+
+    Kong =l=> IPC : Invoke
+    IPC =r=> Mothra : Invoke
+
+    Mothra =d=> ManipDom : Invoke
+    Mothra =d=> LoadDom : Invoke
+}
+@enduml
