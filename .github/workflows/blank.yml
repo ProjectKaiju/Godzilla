@@ -27,8 +27,8 @@ jobs:
         id: plantuml
         uses: grassedge/generate-plantuml-action@v1.5
         with:
-          path: docs
-          message: "Render PlantUML files"
+          message: "Render Use Case Diagrams"
+          path: docs/use_cases
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
