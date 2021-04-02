@@ -39,7 +39,7 @@ WebUser =r=> HttpDelete : Invoke
 
 ## Godzilla Use Cases
 
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/ProjectKaiju/Godzilla/main/docs/use_cases/Godzilla%20Use%20Cases.puml)
+![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/ProjectKaiju/Godzilla/main/docs/use_cases/Godzilla%20Use%20Cases.txt)
 
 
 
