@@ -2,33 +2,8 @@ Use Cases
 =========
 
 ## Overall Use Cases
-```puml
-@startuml
-left to right direction
-actor :Web User: << Human / Bot >> as WebUser
 
-rectangle Browser{
-    rectangle HTTP {
-        usecase (GET Resource) as HttpGet
-        usecase (POST Resource) as HttpPost
-        usecase (PUT Resource) as HttpPut
-        usecase (DELETE Resource) as HttpDelete
-    }
-
-    rectangle HTML {
-        usecase (Manipulates DOM) as ManipDom
-    }
-}
-
-WebUser =d=> ManipDom : Invoke
-
-WebUser =r=> HttpGet : Invoke
-WebUser =r=> HttpPost : Invoke
-WebUser =r=> HttpPut : Invoke
-WebUser =r=> HttpDelete : Invoke
-@enduml
-
-```
+![Use Case Diagrams](../GodzillaUseCases.svg)
 
 ### UC List
 
@@ -38,7 +13,6 @@ WebUser =r=> HttpDelete : Invoke
 * [DELETE Resource (HttpDelete)](Http.md#httpdelete)
 
 ## Godzilla Use Cases
-
 
 ### UC List
 
