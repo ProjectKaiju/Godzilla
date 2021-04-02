@@ -22,9 +22,8 @@ WebUser =r=> HttpGet : Invoke
 WebUser =r=> HttpPost : Invoke
 WebUser =r=> HttpPut : Invoke
 WebUser =r=> HttpDelete : Invoke
-
-newpage
-
+@enduml
+@startuml
 title Godzilla Use Cases
 'https://plantuml.com/use-case-diagram
 left to right direction
@@ -63,9 +62,8 @@ Godzilla <=u= HttpGet
 Godzilla <=u= HttpPost
 Godzilla <=u= HttpPut
 Godzilla <=u= HttpDelete
-
-newpage
-
+@enduml
+@startuml
 title Mothra Uses Cases
 top to bottom direction
 skinparam actorStyle hollow
@@ -108,9 +106,8 @@ rectangle Browser {
     Kong <=r= IPC : Invoke
     IPC <=r= Mothra : Invoke
 }
-
-newpage
-
+@enduml
+@startuml
 title Kong Use Cases
 top to bottom direction
 skinparam actorStyle hollow

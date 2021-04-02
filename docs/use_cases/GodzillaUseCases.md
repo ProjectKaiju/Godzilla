@@ -39,50 +39,6 @@ WebUser =r=> HttpDelete : Invoke
 
 ## Godzilla Use Cases
 
-![uncached image](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/ProjectKaiju/Godzilla/main/docs/use_cases/Godzilla%20Use%20Cases.txt)
-
-
-
-```puml
-@startuml
-left to right direction
-
-skinparam actorStyle awesome
-
-actor Godzilla << Server >>
-note bottom of Godzilla
-    Godzilla is Hosted in IIS or
-    another web server.
-end note
-
-rectangle Browser{
-    rectangle HTTP {
-        usecase (GET Resource) as HttpGet
-        usecase (POST Resource) as HttpPost
-        usecase (PUT Resource) as HttpPut
-        usecase (DELETE Resource) as HttpDelete
-    }
-
-    rectangle WebSocket {
-        usecase (Read Resource) as ReadRes
-        usecase (Save Resource) as SaveRes
-        usecase (Remove Resource) as RemoveRes
-        usecase (Send Notification) << Event >> as Notification
-    }
-}
-
-Godzilla <=l= ReadRes
-Godzilla <=l= SaveRes
-Godzilla <=l= RemoveRes
-
-Godzilla =d=> Notification
-
-Godzilla <=u= HttpGet
-Godzilla <=u= HttpPost
-Godzilla <=u= HttpPut
-Godzilla <=u= HttpDelete
-@enduml
-```
 
 ### UC List
 
